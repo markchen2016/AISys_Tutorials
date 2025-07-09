@@ -1,7 +1,18 @@
 ###### 系列文章
 1. 《Transformers快速入门》 https://transformers.run/  
-**Abstract** 待续  
+**Abstract** TODO
 **阅读状态** doing
+
+2. 《探秘Transformer系列》 https://www.cnblogs.com/rossiXYZ/p/18785601
+* 《注意力机制》https://www.cnblogs.com/rossiXYZ/p/18705809
+**Abstract** 看完忘写了摘要了...
+**阅读状态** 需要重看
+
+* 《Transformer总体架构》 https://www.cnblogs.com/rossiXYZ/p/18706134
+**Abstract** 介绍了Transformer中总体的结构，包括Encoder、Decoder中Attention的实现、FFN的实现。包含Transformer的实现代码，后面对Transformer多方面的解释感觉看起来有点费劲。
+**阅读状态** done
+
+
 
 ###### 预训练技术  
 1. 《从Word Embedding到Bert模型—自然语言处理中的预训练技术发展史》 https://zhuanlan.zhihu.com/p/49271699  
