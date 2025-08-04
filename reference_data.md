@@ -18,6 +18,8 @@
 
     * 《训练&推理》https://www.cnblogs.com/rossiXYZ/p/18730583  
     **Abstract** 详细介绍了训练的代码实现，讲解了dropout、label_smooth正则化技术、noam learning rate（包含warmup和decay两部分，学习率先增后减）、  teacher forcing加速训练方法（通过给模型提供每一步的正确输出作为指导，来实现让自回归（逐字输出）的模型实现并行化的训练）等训练技术，同时给出了基本训练架构的代码；简要介绍了下推理和训练中的输入输出&流程中的区别。
+    **阅读状态** done  
+
 
 
 ###### 预训练技术  
