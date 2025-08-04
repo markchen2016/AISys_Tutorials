@@ -10,8 +10,14 @@
 
     * 《Transformer总体架构》 https://www.cnblogs.com/rossiXYZ/p/18706134  
     **Abstract** 介绍了Transformer中总体的结构，包括Encoder、Decoder中Attention的实现、FFN的实现。包含Transformer的实现代码，后面对Transformer多方面的解释感觉看起来有点费劲。  
-    **阅读状态** done
+    **阅读状态** done  
 
+    * 《数据处理》、《编码器&解码器》 https://www.cnblogs.com/rossiXYZ/p/18722830、https://www.cnblogs.com/rossiXYZ/p/18727704  
+    **Abstract** 《数据处理》介绍了加载数据的过程，包括padding，训练时候输入构建batch的方法，比较easy；《编码器&解码器》继续详解了两个模块里面的具体结构，并对encoder-decoder架构的模型进行了流程梳理；也提到了encoder-only和decoder-only架构的模型演进，随着bert带来最初的保障下增长后，encoder-only模型逐渐消失，目前仅剩encoder-decoder和decoder-only架构。并结合了相关文章，对这一现象进行了相关的解释。  
+    **阅读状态** done  
+
+    * 《训练&推理》https://www.cnblogs.com/rossiXYZ/p/18730583  
+    **Abstract** 详细介绍了训练的代码实现，讲解了dropout、label_smooth正则化技术、noam learning rate（包含warmup和decay两部分，学习率先增后减）、  teacher forcing加速训练方法（通过给模型提供每一步的正确输出作为指导，来实现让自回归（逐字输出）的模型实现并行化的训练）等训练技术，同时给出了基本训练架构的代码；简要介绍了下推理和训练中的输入输出&流程中的区别。
 
 
 ###### 预训练技术  
