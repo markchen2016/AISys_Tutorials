@@ -21,8 +21,8 @@
     **阅读状态** done  
 
     * 《token》、《embedding》、《位置编码》、《位置编码分类》、《自注意力》、《掩码》、《多头自注意力》
-    **Abstract** 介绍了将原始query用分词器分词、获取embedding、给embedding增加位置编码，自注意力，掩码，MHA等（emmm，感觉我这abstract跟没写一样）
-    **阅读状态** done（一次看的比较多，没及时记录详情。。）
+    **Abstract** 介绍了将原始query用分词器分词、获取embedding、给embedding增加位置编码，自注意力，掩码，MHA等（emmm，感觉我这abstract跟没写一样）是比较细致的，但篇幅也比较长hh  
+    **阅读状态** done（一次看的比较多，没及时记录详情。。）  
 
 
 
