@@ -20,7 +20,7 @@
     **Abstract** 详细介绍了训练的代码实现，讲解了dropout、label_smooth正则化技术、noam learning rate（包含warmup和decay两部分，学习率先增后减）、  teacher forcing加速训练方法（通过给模型提供每一步的正确输出作为指导，来实现让自回归（逐字输出）的模型实现并行化的训练）等训练技术，同时给出了基本训练架构的代码；简要介绍了下推理和训练中的输入输出&流程中的区别。  
     **阅读状态** done  
 
-    * 《token》、《embedding》、《位置编码》、《位置编码分类》、《自注意力》、《掩码》、《多头自注意力》
+    * 《token》、《embedding》、《位置编码》、《位置编码分类》、《自注意力》、《掩码》、《多头自注意力》  
     **Abstract** 介绍了将原始query用分词器分词、获取embedding、给embedding增加位置编码，自注意力，掩码，MHA等（emmm，感觉我这abstract跟没写一样）是比较细致的，但篇幅也比较长hh  
     **阅读状态** done（一次看的比较多，没及时记录详情。。）  
 
